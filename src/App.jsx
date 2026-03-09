@@ -1,8 +1,6 @@
 import './App.css'
-import Sunflower from "./assets/Sunflower.svg?react";
-import Dahlia from "./assets/Dahlia.svg?react";
-import Lily from "./assets/Lily.svg?react";
-import Peony from "./assets/Peony.svg?react";
+import Rose from "./assets/Rose.svg?react";
+import Case from "./assets/Case.svg?react";
 import Letter from "./assets/Letter.svg?react";
 
 import * as Tooltip from "@radix-ui/react-tooltip";
@@ -13,7 +11,7 @@ function App() {
     <div id="background">
         <div className="headline">
           <h2>IT'S YOUR</h2>
-          <h1>20TH</h1>
+          <h1>21TH</h1>
           <h2>BIRTHDAY!!!</h2>
           <p id="sub">wish you all the best and happiness may come to you</p>
           
@@ -21,6 +19,34 @@ function App() {
         </div>
 
         <div className="center">   
+
+              
+
+              <Dialog.Root>
+                <Dialog.Trigger asChild>
+                  <Case id="case"/>
+                </Dialog.Trigger>
+              </Dialog.Root>
+
+              <Dialog.Root>
+                <Dialog.Trigger asChild>
+                  <Rose className="components" id="rose"/>
+                </Dialog.Trigger>
+
+                <Dialog.Portal>
+                  <Dialog.Overlay className="overlay" />
+
+                  <Dialog.Content className="flower-modal">
+                    <Dialog.Title className="modal-title">🌹 Magic Rose</Dialog.Title>
+                    <br/>
+                    <Dialog.Description className="modal-description">
+                      I love you ❤️
+                    </Dialog.Description>
+
+                    <Dialog.Close className="close">Đóng</Dialog.Close>
+                  </Dialog.Content>
+                </Dialog.Portal>
+              </Dialog.Root>
 
               <Dialog.Root>
                 <Dialog.Trigger asChild>
@@ -63,86 +89,6 @@ function App() {
                     </p>
 
 
-
-                    <Dialog.Close className="close">Đóng</Dialog.Close>
-                  </Dialog.Content>
-                </Dialog.Portal>
-              </Dialog.Root>
-
-              <Dialog.Root>
-                <Dialog.Trigger asChild>
-                  <Peony className="components" id="peony"/>
-                </Dialog.Trigger>
-
-                <Dialog.Portal>
-                  <Dialog.Overlay className="overlay" />
-
-                  <Dialog.Content className="flower-modal">
-                    <Dialog.Title className="modal-title">💐 Peony</Dialog.Title>
-                    <br/>
-                    <Dialog.Description className="modal-description">
-                      It's also known to symbolise wealth. In Japan, it represents bravery, honour and good fortune.
-                    </Dialog.Description>
-
-                    <Dialog.Close className="close">Đóng</Dialog.Close>
-                  </Dialog.Content>
-                </Dialog.Portal>
-              </Dialog.Root>
-
-              <Dialog.Root>
-                <Dialog.Trigger asChild>
-                  <Lily className="components" id="lily"/>
-                </Dialog.Trigger>
-
-                <Dialog.Portal>
-                  <Dialog.Overlay className="overlay" />
-
-                  <Dialog.Content className="flower-modal">
-                    <Dialog.Title className="modal-title">🌚 Lily</Dialog.Title>
-                    <br/>
-                    <Dialog.Description className="modal-description">
-                      One of top 10 the most beautiful flower in the world ✨
-                    </Dialog.Description>
-
-                    <Dialog.Close className="close">Đóng</Dialog.Close>
-                  </Dialog.Content>
-                </Dialog.Portal>
-              </Dialog.Root>
-
-              <Dialog.Root>
-                <Dialog.Trigger asChild>
-                  <Dahlia className="components" id="dahlia"/>
-                </Dialog.Trigger>
-
-                <Dialog.Portal>
-                  <Dialog.Overlay className="overlay" />
-
-                  <Dialog.Content className="flower-modal">
-                    <Dialog.Title className="modal-title">🌼🩷 Dahlia</Dialog.Title>
-                    <br/>
-                    <Dialog.Description className="modal-description">
-                      Symbolise wisdom, beauty, love
-                    </Dialog.Description>
-
-                    <Dialog.Close className="close">Đóng</Dialog.Close>
-                  </Dialog.Content>
-                </Dialog.Portal>
-              </Dialog.Root>
-
-              <Dialog.Root>
-                <Dialog.Trigger asChild>
-                  <Sunflower className="components" id="sunflower"/>
-                </Dialog.Trigger>
-
-                <Dialog.Portal>
-                  <Dialog.Overlay className="overlay" />
-
-                  <Dialog.Content className="flower-modal">
-                    <Dialog.Title className="modal-title">🌻 Sunflower</Dialog.Title>
-                    <br/>
-                    <Dialog.Description className="modal-description">
-                      Cause you're the brightest sunshine
-                    </Dialog.Description>
 
                     <Dialog.Close className="close">Đóng</Dialog.Close>
                   </Dialog.Content>
