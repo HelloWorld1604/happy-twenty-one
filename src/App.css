@@ -8,7 +8,6 @@
 #background {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,6 +98,7 @@ h1 {
 }
 
 #rose {
+  width: auto;
   height: 25vh;
 }
 
@@ -107,11 +107,10 @@ h1 {
 }
 
 #letter {
-  left: 53%;
+  left: 60%;
   top: 69%;
   rotate: calc(45deg);
   animation: none;
-  cursor: pointer;
 }
 
 #letter:hover {
@@ -185,31 +184,6 @@ h1 {
 @media only screen and (width <= 500px) {
   #sub{
     font-size: 10px;
-  }
-
-  #sunflower {
-    left: 20%;
-    top: 50%;
-  }
-
-  #dahlia {
-    left: 15%;
-    top: 42%;
-  }
-
-  #lily {
-    left: 30%;
-    top: 38%;
-  }
-
-  #peony {
-    left: 52%;
-    top: 43%;
-  }
-
-  #letter {
-    left: 61%;
-    top: 62%;
   }
 
   .headline {

@@ -14,14 +14,9 @@ function App() {
           <h1>21TH</h1>
           <h2>BIRTHDAY!!!</h2>
           <p id="sub">wish you all the best and happiness may come to you</p>
-          
-
         </div>
 
         <div className="center">   
-
-              
-
               <Dialog.Root>
                 <Dialog.Trigger asChild>
                   <Case id="case"/>
@@ -40,7 +35,8 @@ function App() {
                     <Dialog.Title className="modal-title">🌹 Magic Rose</Dialog.Title>
                     <br/>
                     <Dialog.Description className="modal-description">
-                      I love you ❤️
+                      Tale as old as time 🎵 <br/>
+                      True as it can be 🎶
                     </Dialog.Description>
 
                     <Dialog.Close className="close">Đóng</Dialog.Close>
@@ -57,35 +53,35 @@ function App() {
                   <Dialog.Overlay className="overlay" />
 
                   <Dialog.Content className="modal">
-                    <Dialog.Title className="modal-title">Chúc mừng 20 tuổi ngaa 🎉</Dialog.Title>
+                    <Dialog.Title className="modal-title">Chúc mừng 21 tuổi ngaa 🎉</Dialog.Title>
                     <br/>
                     <Dialog.Description className="modal-description">
-                      Nhân dịp nth bước vào một trong những mốc quan trọng của cuộc đời, xin dành tặng món quà đặc biệt.
+                      Vì mắc nhớ Ling Ling và cũng hổng bít tặng gì cho bạn, nên mình ngựa ngựa vẽ tặng bạn bông hoa hồng này 😘
                     </Dialog.Description>
                     <br/>
                     <p className="modal-content">
-                      Ngồi rảnh rảnh nghĩ một hồi thì lht đã làm cái web ngựa ngựa này để chào đón 20 nồi bánh chưng của em nth.
-                      Năm nay công nhận khéo thế nào sinh nhật lại trùng đúng mùng 3 Tết nhỉ, vừa được ăn bánh chưng vừa được ăn bánh kem 😍
+                      Hôm bữa đi chơi, tui phát hiện cô í đã dùng chiếc ví tui tặng cổ năm ngoái nên tui gấc là vui.
+                      Cảm ơn vì đã nhét thật nhiều tiền, thẻ ngân hàng, zai riêu cát độ, thẻ học sinh... vào chiếc ví.
                     </p>
 
                     <br/>
                     <p className="modal-content">
-                      Nói chum là, gì muốn nói, cũng đã nói hếc gòi đó. Nhưng mà có một điều muốn nhắn nhủ nth lần nữa là mong nth
-                      luôn giữ gìn sức khỏe thật tốt. Mong cổ luôn hài lòng với những gì mình có, và có cuộc đời an yên.
-                      Cũng chúc cô í năm nay lại học thêm được nhiều điều mới, thi cử thuận lợi.
-                      Gòi mong mọi muộn phiền, áp lực không quá làm khó cho cổ.
+                      Dù chỉ (mới) gặp nhau được 2 năm thôi, nhưng trộm vía mình chơi với nhau siêu hợp! Mặc dù lâu lâu mình bị đơ đơ,
+                      cơ mà cũng chẳng sao cả vì bạn không quánh giá lắm. Ở gần bạn, mình cảm thấy ấm áp và yên lòng vô cùng. Mình nhận ra
+                      Ling Ling có một siêu năng lực đó là khiến người khác tự nhiên thấy yêu quý bạn, chính xác hơn là một người đáng yêu.
+                      Vậy nên tui mong, chẳng cần phải là bất kì ai hết, mà chỉ cần là Ling Ling, bạn sẽ luôn hạnh phúc 💐
                     </p>
 
                     <br/>
                     <p className="modal-content">
-                      Cảm ơn em vì từ trước tới giờ đã luôn lắng nghe, chia sẻ nhiều câu chuyện với lht. Cảm giác những ai đã gặp được em, họ
-                      siêu trân trọng em luôn í. Vì sự dễ thương, dễ mến, siêu tâm lý của cổ 💐✨ Tui mong rằng cô í cũng sẽ tự hào và hạnh phúc
-                      vì những niềm vui, hạnh phúc cô í đã đem đến cho mọi người. Tui cũng mong, nếu có chuyện gì, cổ cũng có thể tin tưởng và chia sẻ với tôi.
+                      Nhân dịp 21 nồi bánh chưng, xin trân trọng gửi lời chúc mừng sinh nhật hoành tráng to bự nhất quả đất tới Ling Ling.
+                      Chúc bạn một năm mới thật là nhiều niềm vui, học được nhiều điều mới cùng các bạn mới, môi trường mới. Mong cho học tập,
+                      thi cử, công việc của bạn luôn thuận lợi. Bùm bùm chiu chiu 🎉🎉🎉
                     </p>
 
                     <br/>
                     <p className="modal-content">
-                      All the best for you too!
+                      Tui mong lại sớm gặp lại bạn.
                     </p>
 
 
@@ -97,7 +93,6 @@ function App() {
         </div>
 
         <div id="fooster">
-
         </div>
     </div>
   )
